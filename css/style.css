@@ -1058,6 +1058,29 @@ body {
   fill: white;
 }
 
+.hum {
+  background-image: url(../img/svg/Bulk/iconmonstr-drop-9.svg);
+  width: 24px;
+  height: 24px;
+
+}
+
+.temp {
+  background-image: url(../img/svg/Bulk/iconmonstr-weather-5.svg);
+  width: 24px;
+  height: 24px;
+  color: white;
+  fill: white;
+}
+
+.warning {
+  background-image: url(../img/svg/Bulk/iconmonstr-warning-8.svg);
+  width: 24px;
+  height: 24px;
+  color: white;
+  fill: white;
+}
+
 .document {
   background-image: url(../img/svg/Bulk/Document-white.svg);
   width: 24px;
@@ -2675,19 +2698,25 @@ label {
   color: #2f49d1;
 }
 
-.stat-cards-icon.warning {
+.stat-cards-icon.warningg {
   background-color: rgba(255, 182, 72, 0.1);
-  color: #ffb648;
+  filter: invert(44%) sepia(76%) saturate(1705%) hue-rotate(11deg) brightness(104%) contrast(106%);
+
 }
 
-.stat-cards-icon.purple {
+.stat-cards-icon.red {
   background-color: rgba(95, 46, 234, 0.1);
   color: #5f2eea;
+  filter: invert(13%) sepia(88%) saturate(5657%) hue-rotate(358deg) brightness(93%) contrast(109%);
+
+
 }
 
 .stat-cards-icon.success {
   background-color: rgba(75, 222, 151, 0.1);
   color: #4bde97;
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+
 }
 
 .stat-cards-info__num {
@@ -4309,4 +4338,44 @@ label {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  * {
+    box-sizing: border-box;
+  }
+  .columnn {
+    float: left;
+    width: 50%;
+    }
+
+    .rowa:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .full-width-tinted {
+      position: relative; /* for child pseudo-element */
+      z-index: 0;
+      margin: 0 -600rem;
+      /* add back negative margin value */
+      padding: 0.25rem 600rem;
+      background: #666;
+      background: rgba(0, 0, 0, 0.25);
+    }
+    
+    .full-width-tinted:before {
+      content: "";
+      position: absolute;
+      z-index: -1; /* behind parent */
+      top: 0;
+      bottom: 0;
+      /* subtract h2 padding (1.5rem) */
+      left: 598.5rem;
+      right: 598.5rem;
+      background-color: green;
+    }
+    #chartdiv {
+      width: 100%;
+      
+      margin-top: 50px;
+    }
 }
