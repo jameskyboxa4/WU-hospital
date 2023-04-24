@@ -3286,13 +3286,13 @@ label {
 }
 
 .categories-table-img {
-  margin-right: 26px;
+  align-items: center;
 }
 
 .categories-table-img img {
-  width: 71px;
+  /* width: 71px;
   height: 47px;
-  border-radius: 6px;
+  border-radius: 6px; */
 }
 
 .darkmode {
