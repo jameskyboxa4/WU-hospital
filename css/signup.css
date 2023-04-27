@@ -1,0 +1,27 @@
+.status-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 10px;
+  }
+  
+  .status-label {
+    margin-right: 5px;
+  }
+  
+  .status-wrapper p {
+    margin: 0;
+  }
+  
+  .length-status,
+  .lowercase-status,
+  .uppercase-status,
+  .number-status,
+  .special-status {
+    margin-right: 10px;
+  }
+  
+  .special-status {
+
+  }
+  

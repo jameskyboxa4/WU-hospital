@@ -1,0 +1,21 @@
+{
+    "Negative present room": {
+    "Total": 10,
+    "Online": 2,
+    "Warning": null
+    },
+    "Tempturemonoing": {
+    "Total": 20,
+    "Online": 8,
+    "Warning": 2
+    },
+    "WARD ROOM": {
+    "Total": 10,
+    "Online": 6,
+    "Warning": null
+    },
+    "Data/Time": "4/27/2023 15:02:52",
+    "Temperature": 26.5,
+    "Relative Humidity": 95
+
+}
